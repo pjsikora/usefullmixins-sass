@@ -21,9 +21,16 @@ By: fedojo.com
 	<td>animateAll($time)</td>
 	<td>Animate all properties</td>
 </tr>
+<tr>
+	<td>clearfix</td>
+	<td>Just a simple clearfix</td>
+</tr>
 </table>
 
 ### Changelog
+
+2015.05.09
+- clearfix
 
 2015.04.31
 - Init

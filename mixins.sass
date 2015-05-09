@@ -40,3 +40,15 @@ animateAll
 	-moz-transition: all $time ease-in-out;
 	-o-transition: all $time ease-in-out;
 	transition: all $time ease-in-out;
+
+
+/*
+clearfix
+*/
+@mixin clearfix
+	&:after 
+		content: " "
+		visibility: hidden
+		display: block
+		height: 0
+		clear: both
