@@ -25,9 +25,16 @@ By: fedojo.com
 	<td>clearfix</td>
 	<td>Just a simple clearfix</td>
 </tr>
+<tr>
+	<td>opacity</td>
+	<td>IE8 opacity fallback</td>
+</tr>
 </table>
 
 ### Changelog
+
+2015.05.09
+- opacity
 
 2015.05.09
 - clearfix

@@ -1,0 +1,18 @@
+{
+  "name": "UsefullMixins.sass",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fedojo/UsefullMixins.sass",
+  "authors": [
+    "piotrsikora <fedojo.com@gmail.com>"
+  ],
+  "description": "Sass mixins",
+  "main": "mixins.sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
