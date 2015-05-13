@@ -1,9 +1,3 @@
-/*
-linearGradientFromTop
-
-@param $startColor - top color
-@param $endColor - bottom color
-*/
 @mixin linearGradientFromTop($startColor, $endColor)
 	background: $startColor /* Old browsers */
 	background: -moz-linear-gradient(top,  $startColor 0%, $endColor 100%) /* FF3.6+ */
@@ -14,12 +8,6 @@ linearGradientFromTop
 	background: linear-gradient(to bottom,  $startColor 0%, $endColor 100%) /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$startColor}', endColorstr='#{$endColor}',GradientType=0 ) /* IE6-9 */
 
-/*
-linearGradientFromLeft
-
-@param $startColor - left color
-@param $endColor - right color
-*/
 @mixin linearGradientFromLeft($startColor, $endColor)
 	background-color: $startColor
 	background: -webkit-gradient(linear, left top, right top, from($startColor), to($endColor))
@@ -30,21 +18,12 @@ linearGradientFromLeft
 	background: linear-gradient(left, $startColor, $endColor)
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1')
 
-/*
-animateAll
-
-@param $time - animation time
-*/
 @mixin animateAll($time)
 	-webkit-transition: all $time ease-in-out;
 	-moz-transition: all $time ease-in-out;
 	-o-transition: all $time ease-in-out;
 	transition: all $time ease-in-out;
 
-
-/*
-clearfix
-*/
 @mixin clearfix
 	&:after 
 		content: " "
