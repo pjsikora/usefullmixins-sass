@@ -19,17 +19,15 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1')
 
 @mixin animateAll($time)
-	-webkit-transition: all $time ease-in-out;
-	-moz-transition: all $time ease-in-out;
-	-o-transition: all $time ease-in-out;
-	transition: all $time ease-in-out;
+	-webkit-transition: all $time ease-in-out
+	-moz-transition: all $time ease-in-out
+	-o-transition: all $time ease-in-out
+	transition: all $time ease-in-out
 
 @mixin clearfix
-	&:after 
+	&:after
 		content: " "
 		visibility: hidden
 		display: block
 		height: 0
 		clear: both
-
-
