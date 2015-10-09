@@ -1,4 +1,4 @@
-@mixin linearGradientFromTop($startColor, $endColor)
+=linearGradientFromTop($startColor, $endColor)
 	background: $startColor /* Old browsers */
 	background: -moz-linear-gradient(top,  $startColor 0%, $endColor 100%) /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $startColor), color-stop(100%, $endColor)) /* Chrome,Safari4+ */
@@ -8,7 +8,7 @@
 	background: linear-gradient(to bottom,  $startColor 0%, $endColor 100%) /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$startColor}', endColorstr='#{$endColor}',GradientType=0 ) /* IE6-9 */
 
-@mixin linearGradientFromLeft($startColor, $endColor)
+=linearGradientFromLeft($startColor, $endColor)
 	background-color: $startColor
 	background: -webkit-gradient(linear, left top, right top, from($startColor), to($endColor))
 	background: -webkit-linear-gradient(left, $startColor, $endColor)
@@ -18,16 +18,44 @@
 	background: linear-gradient(left, $startColor, $endColor)
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1')
 
-@mixin animateAll($time)
+=animateAll($time)
 	-webkit-transition: all $time ease-in-out
 	-moz-transition: all $time ease-in-out
 	-o-transition: all $time ease-in-out
 	transition: all $time ease-in-out
 
-@mixin clearfix
+=clearfix
 	&:after
 		content: " "
 		visibility: hidden
 		display: block
 		height: 0
 		clear: both
+
+=triangleRight($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height/2 0 $height/2 $width
+	border-color: transparent transparent transparent  $color
+
+=triangleLeft($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height/2 $width $height/2 0
+	border-color: transparent transparent transparent  $color
+
+=triangleTop($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: 0 $width/2 $height $width/2
+	border-color: transparent transparent transparent  $color
+
+=triangleBottom($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height $width/2 0 $width/2
+	border-color: transparent transparent transparent  $color
