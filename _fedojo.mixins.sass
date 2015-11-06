@@ -59,3 +59,17 @@
 	border-style: solid
 	border-width: $height $width/2 0 $width/2
 	border-color: $color transparent transparent transparent
+
+=displayFlex
+	display: -webkit-box
+  	display: -moz-box
+  	display: -ms-flexbox
+  	display: -webkit-flex
+  	display: flex
+
+=flexOrder($number)
+	 -webkit-box-ordinal-group: $number
+	  -moz-box-ordinal-group: $number
+	  -ms-flex-order: $number
+	  -webkit-order: $number
+	  order: $number
