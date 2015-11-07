@@ -1,0 +1,58 @@
+=rectangle($w, $h, $c)
+	width: $w
+	height: $h
+	background: $c
+	display: inline-block
+
+=square($w, $c)
+	width: $w
+	height: $w
+	background: $c
+	display: inline-block
+
+=circle($size, $color)
+	width: $size
+	height: $size
+	border-radius: 50%
+	background: $color
+	display: inline-block
+
+=ring($size, $color, $width)
+	width: $size
+	height: $size
+	border-radius: 50%
+	border: $width solid $color
+	background: none
+	display: inline-block
+
+=triangleRight($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height/2 0 $height/2 $width
+	border-color: transparent transparent transparent $color
+	display: inline-block
+
+=triangleLeft($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height/2 $width $height/2 0
+	border-color: transparent  $color transparent transparent
+	display: inline-block
+
+=triangleTop($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: 0 $width/2 $height $width/2
+	border-color: transparent transparent $color transparent
+	display: inline-block
+
+=triangleBottom($width, $height, $color)
+	width: 0
+	height: 0
+	border-style: solid
+	border-width: $height $width/2 0 $width/2
+	border-color: $color transparent transparent transparent
+	display: inline-block
