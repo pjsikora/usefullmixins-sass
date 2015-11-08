@@ -32,6 +32,8 @@ By: fedojo.com
 </table>
 
 ### Changelog
+2015.11.07
+- partialization (primitives)
 
 2015.05.09
 - opacity
