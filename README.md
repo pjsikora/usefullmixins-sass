@@ -11,7 +11,7 @@ By: fedojo.com
 </tr>
 <tr>
 	<td>linearGradientFromTop($startColor, $endColor)</td>
-	<td>Vertical gradient from top</td>
+	<td>Vertical gradient from top. Remember that for IE you need to append full HEX (#000000 not #000)</td>
 </tr>
 <tr>
 	<td>linearGradientFromLeft($startColor, $endColor)</td>
