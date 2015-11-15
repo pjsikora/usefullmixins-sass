@@ -31,6 +31,43 @@ By: fedojo.com
 </tr>
 </table>
 
+Primitives
+<table>
+<tr>
+	<th>Name</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>=rectangle($width, $height, $color)</td>
+	<td>Draw rectangle with $width, $height, $color</td>
+</tr>
+<tr>
+	<td>=square($width, $color)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>=circle($size, $color)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>=triangleRight($width, $height, $color)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>=triangleLeft($width, $height, $color)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>=triangleTop($width, $height, $color)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>=triangleBottom($width, $height, $color)</td>
+	<td></td>
+</tr>
+</table>
+
+
 ### Changelog
 2015.11.07
 - partialization (primitives)
