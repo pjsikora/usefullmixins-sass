@@ -43,27 +43,27 @@ Primitives
 </tr>
 <tr>
 	<td>=square($width, $color)</td>
-	<td></td>
+	<td>Draw square with $width and $color</td>
 </tr>
 <tr>
 	<td>=circle($size, $color)</td>
-	<td></td>
+	<td>Draw circle</td>
 </tr>
 <tr>
 	<td>=triangleRight($width, $height, $color)</td>
-	<td></td>
+	<td>Draw triangle directed to right</td>
 </tr>
 <tr>
 	<td>=triangleLeft($width, $height, $color)</td>
-	<td></td>
+	<td>Draw triangle directed to left</td>
 </tr>
 <tr>
 	<td>=triangleTop($width, $height, $color)</td>
-	<td></td>
+	<td>Draw triangle directed to top</td>
 </tr>
 <tr>
 	<td>=triangleBottom($width, $height, $color)</td>
-	<td></td>
+	<td>Draw triangle directed to bottom</td>
 </tr>
 </table>
 
