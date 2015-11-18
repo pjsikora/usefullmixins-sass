@@ -67,6 +67,14 @@ Primitives
 </tr>
 </table>
 
+Utils
+
+<table>
+<tr>
+	<td></td>
+	<td></td>
+</tr>
+</table>
 
 ### Changelog
 2015.11.07
