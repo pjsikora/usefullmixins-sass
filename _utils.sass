@@ -14,3 +14,8 @@
         min-width: 100%
         max-width: none
         transform: translate(-50%, -50%)
+
+
+@mixin mq($display, $breakpoint)
+  @media #{$display} and (#{$breakpoint})
+    @content
